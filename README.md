@@ -117,6 +117,19 @@ The game works in the following sequence:
 
 ---
 
+##Screenshots
+
+###Intial game state
+!
+Description: Shows the main game header "THE TYPE TRAP" with instructions to type the sentence as fast as possible. Displays a target tongue-twister sentence ("Three thirsty thieves..."), a reset timer at 02:00, an empty input box with the prompt "Start typing here...", and a interactive red "CLICK ME" button below.
+
+###Active Typing State
+!
+Description: Shows the user actively typing out the target sentence ("The clever clown carefully carried...") into the text box while the countdown timer runs down to 00:02.
+
+###Time's Up Popup
+!
+Description: Displays a bright yellow popup alert with a skull icon indicating that time ran out, showing the message "TIME'S UP! The timer gave up before you did. Actually... no, you didn't even finish." alongside an "OKAY, I GET IT" button.
 
 # 🖥️ Software Architecture
 
