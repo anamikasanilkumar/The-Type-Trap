@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Type Trap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <header>
+            <h1>THE TYPE TRAP</h1>
+            <p>Type the sentence as fast as you can.</p>
+        </header>
+
+        <div class="card">
+            <div class="target-area">
+                <span class="label">TARGET</span>
+                <div id="targetText">Loading...</div>
+            </div>
+
+            <div id="timer">02:00</div>
+
+            <div class="editor-wrapper">
+                <textarea 
+                    id="editor" 
+                    placeholder="Start typing here..." 
+                    autocomplete="off" 
+                    spellcheck="false"
+                ></textarea>
+                <div id="status">Ready...</div>
+            </div>
+        </div>
+
+        <div id="buttonArea">
+            <button id="clickMe">CLICK ME</button>
+        </div>
+
+        <div id="result" class="hidden">
+            <h2 id="resultTitle"></h2>
+            <p id="resultMessage"></p>
+            <button id="newGame">🔄 TRY AGAIN</button>
+        </div>
+    </main>
+
+    <div id="roastPopup" class="roast-popup hidden">
+        <div class="roast-box">
+            <div class="roast-emoji">💀</div>
+            <h2 id="roastTitle">YOU GOT ROASTED!</h2>
+            <p id="roastText"></p>
+            <button id="roastClose">OKAY, I GET IT</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
